@@ -11,10 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56427732-b433-407c-b420-3134fdcd7686" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/PlayerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/PlayerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/PlayerMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/PlayerMovement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/CeilingDetector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/CeilingDetector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/InputReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/InputReader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Heavenly Breaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Heavenly Breaker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Player/Helpers/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,85 +35,85 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ryuality"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ryuality&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Brian-Cortez/Heavenlybreaker.git",
-    "accountId": "303f5b11-7234-4b34-a79d-f69a29588e7f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Brian-Cortez/Heavenlybreaker.git&quot;,
+    &quot;accountId&quot;: &quot;303f5b11-7234-4b34-a79d-f69a29588e7f&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.8327944459715817" />
-      <entry key="MS500" value="4.825671886701099" />
-      <entry key="S2" value="10.23177220821925" />
-      <entry key="S5" value="13.479311816354828" />
-      <entry key="S10" value="15.052688499326718" />
-      <entry key="S30" value="17.73719487860953" />
-      <entry key="S60" value="27.273622161360336" />
-      <entry key="M2" value="52.13523069136446" />
-      <entry key="M5" value="114.30004855734593" />
-      <entry key="M10" value="211.90658499106823" />
-      <entry key="M15" value="297.5545164988376" />
-      <entry key="M30" value="461.54068834908963" />
-      <entry key="H1" value="598.6997037707032" />
-      <entry key="H2" value="688.8959116579778" />
-      <entry key="H4" value="740.8311032141318" />
-      <entry key="D1" value="788.0845427410305" />
-      <entry key="W1" value="796.5736926542546" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000852099792643" />
+      <entry key="S5" value="1.043856744320606" />
+      <entry key="S10" value="1.3604562478875986" />
+      <entry key="S30" value="2.5362076456788154" />
+      <entry key="S60" value="3.3474049444782623" />
+      <entry key="M2" value="4.095396459131255" />
+      <entry key="M5" value="9.212272718814038" />
+      <entry key="M10" value="42.72758251156024" />
+      <entry key="M15" value="97.97520913605258" />
+      <entry key="M30" value="265.67590505958276" />
+      <entry key="H1" value="464.593152108876" />
+      <entry key="H2" value="623.0587346967752" />
+      <entry key="H4" value="723.9512948473815" />
+      <entry key="D1" value="821.7576280336293" />
+      <entry key="W1" value="839.9290712851458" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.1313156229118984E-87" />
-      <entry key="S2" value="2.148631518247393E-22" />
-      <entry key="S5" value="2.1521117930648467E-9" />
-      <entry key="S10" value="4.641328780150492E-5" />
-      <entry key="S30" value="0.041106797552803026" />
-      <entry key="S60" value="0.34443222102401916" />
-      <entry key="M2" value="1.737460237701623" />
-      <entry key="M5" value="8.703798396188704" />
-      <entry key="M10" value="21.214504405061195" />
-      <entry key="M15" value="30.87904841241875" />
-      <entry key="M30" value="47.18238088545598" />
-      <entry key="H1" value="59.47647802878069" />
-      <entry key="H2" value="67.11716090932103" />
-      <entry key="H4" value="71.38982580706471" />
-      <entry key="D1" value="75.20695059438192" />
-      <entry key="W1" value="75.88608560428183" />
+      <entry key="MS500" value="2.3732565266594694E-127" />
+      <entry key="S2" value="2.2071719638710781E-32" />
+      <entry key="S5" value="2.1753766789832842E-13" />
+      <entry key="S10" value="4.664093351320579E-7" />
+      <entry key="S30" value="0.007755144865492789" />
+      <entry key="S60" value="0.08827496323678329" />
+      <entry key="M2" value="0.32470253507863805" />
+      <entry key="M5" value="1.3558459976983954" />
+      <entry key="M10" value="5.31572972799248" />
+      <entry key="M15" value="11.360384057969187" />
+      <entry key="M30" value="28.554637619303293" />
+      <entry key="H1" value="47.68839273903871" />
+      <entry key="H2" value="62.321345188642454" />
+      <entry key="H4" value="71.42805055758006" />
+      <entry key="D1" value="80.12619456303466" />
+      <entry key="W1" value="81.72943322208016" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.610901324275419" />
-      <entry key="MS500" value="4.725043590995499" />
-      <entry key="S2" value="10.115344184713742" />
-      <entry key="S5" value="13.356630578919539" />
-      <entry key="S10" value="14.96401504232228" />
-      <entry key="S30" value="17.729687418667602" />
-      <entry key="S60" value="27.552376699971575" />
-      <entry key="M2" value="53.76179657808424" />
-      <entry key="M5" value="122.8437802928057" />
-      <entry key="M10" value="232.94681913049294" />
-      <entry key="M15" value="328.26690473612734" />
-      <entry key="M30" value="508.59452661852134" />
-      <entry key="H1" value="658.0938550542045" />
-      <entry key="H2" value="755.966103303914" />
-      <entry key="H4" value="812.1957908268022" />
-      <entry key="D1" value="863.2870545104327" />
-      <entry key="W1" value="872.4591377685573" />
+      <entry key="MS100" value="4.400637024466942E-4" />
+      <entry key="MS500" value="0.21315872294198915" />
+      <entry key="S2" value="0.6795311896939951" />
+      <entry key="S5" value="0.8914983868257893" />
+      <entry key="S10" value="1.2433427757101188" />
+      <entry key="S30" value="2.4468643562563956" />
+      <entry key="S60" value="3.359152206042815" />
+      <entry key="M2" value="4.366854839554261" />
+      <entry key="M5" value="10.53407754070734" />
+      <entry key="M10" value="47.997083712904235" />
+      <entry key="M15" value="109.27305136396537" />
+      <entry key="M30" value="294.15235493351474" />
+      <entry key="H1" value="512.215384793468" />
+      <entry key="H2" value="685.3364017314427" />
+      <entry key="H4" value="795.3541634821345" />
+      <entry key="D1" value="901.8790886733545" />
+      <entry key="W1" value="921.6578140255705" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3HqO4NGkdh6TzoxXzYTiaLfWsW0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -130,7 +137,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "unity.profiler.toolWindow.autoShown": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -178,7 +186,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1786591941565</updated>
-      <workItem from="1786591941566" duration="2824000" />
+      <workItem from="1786591941566" duration="3291000" />
+      <workItem from="1786755677277" duration="2892000" />
     </task>
     <servers />
   </component>
